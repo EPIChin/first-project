@@ -17,7 +17,7 @@ public class PiTri {
                     int c = 1;
                     while (i < N && c < 1000){
                         if(checkTriple(a, b, c)){
-                            System.out.println("Числа " + a + ", " + b + ", " + c + " являются пифагоровой тройкой");
+                            System.out.println("Числа " + a + ", " + b + ", " + c + " являются пифагоровой тройкой!");
                             i++;
                         }
                         c++;
